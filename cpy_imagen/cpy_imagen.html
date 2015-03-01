@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    		<title>Copiar Imagen</title>
+    
+  	</head>
+
+	<body>
+    		<canvas width='200' height='200' id='canvas'></canvas>
+    		<p><input type='file' id='cargar'></p>
+
+    		<p>
+			<input type="button" value="Copiar" onclick="copiar()" />
+   			<input type="button" value="Canal Rojo" onclick="CanalRojo()" />
+        		<input type="button" value="Canal Verde" onclick="CanalVerde()" />
+        		<input type="button" value="Canal Azul" onclick="CanalAzul()" />
+			<input type="button" value="Escala de Grises" onclick="EscalaGrises()" />
+			<input type="button" value="Blanco y Negro" onclick="BlancoNegro()" />
+   		</p>
+    
+    		<canvas width='200' height='200' id='canvas2'></canvas>
+    		<script src="cpy_imagen.js"></script>
+  	</body>
+
+</html>
